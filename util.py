@@ -98,7 +98,7 @@ class State:
         """
         pass
 
-    def update_events(self, events):
+    def process_events(self, events, pressed_keys):
         assert 0, "update_input not implemented"
 
     def update(self, dt):
